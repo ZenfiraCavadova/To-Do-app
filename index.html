@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="To-Do, task" />
+    <meta name="description" content="To-Do app" />
+    <meta name="author" content="Zenfira Javadova" />
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="./ToDo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <h1 class="main-header">TO-DO NOW</h1>
+        <div class="note">
+          <img src="./assets/NotePencil.png" alt="" />
+        </div>
+      </div>
+      <div class="adding">
+        <input type="text" name="" id="inp-task" class="inp-task" />
+        <button type="submit" class="addBtn" onclick="addTask()">
+          Add task
+        </button>
+      </div>
+      <ul class="list-container">
+        <!-- <li class="task">
+          This is a task
+          <button type="submit" class="delete">
+            <img src="./assets/bin.png" alt="" />
+          </button>
+        </li> -->
+      </ul>
+    </main>
+    <script src="./ToDo.js"></script>
+  </body>
+</html>
